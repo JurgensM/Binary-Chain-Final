@@ -991,6 +991,7 @@ hr {
   .de-card {
     width: 100%;
     max-height: 100%;
+    margin: 0;
   }
 
   .de-card img {
