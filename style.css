@@ -495,7 +495,7 @@ a {
 
 .card-container {
   width: 68.3%; 
-  height: auto; 
+  height: 60%; 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: #A1C51E;
