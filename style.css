@@ -494,8 +494,8 @@ a {
 
 
 .card-container {
-  width: 68.3%; 
-  height: 60%; 
+  width: 80%; 
+  height: 70%; 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   color: #A1C51E;
@@ -982,7 +982,7 @@ hr {
 
 @media screen and (max-width: 600px) {
   .decentralized-container {
-    height: 170vh;
+    height: 155vh;
   }
   .card-container {
     grid-template-columns: 1fr;
