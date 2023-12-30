@@ -74,6 +74,7 @@ new Chart(myChart, {
     cutout: '80%',
     borderWidth: 0,
     borderRadius: 8,
+    responsive: true,
     hoverBorderWidth: 2,
     plugins: {
       legend: {
