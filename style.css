@@ -842,7 +842,7 @@ hr {
   }
 
   .grid-container {
-    height: 190vh;
+    height: 200vh;
     grid-template-columns: 1fr;
   }
 
