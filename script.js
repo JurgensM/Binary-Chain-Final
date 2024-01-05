@@ -82,6 +82,7 @@ new Chart(myChart, {
         display: true,
         position: 'right',
         align: 'right',
+        responsive: false,
         labels: {
           color: 'white'
       }
