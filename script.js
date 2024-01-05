@@ -1,3 +1,16 @@
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".menu");
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}));
+
+
+
 // geting canvas by id c
 var c = document.getElementById("matrix-rain");
 var ctx = c.getContext("2d");
@@ -82,7 +95,6 @@ new Chart(myChart, {
         display: true,
         position: 'right',
         align: 'right',
-        responsive: false,
         labels: {
           color: 'white'
       }
@@ -105,13 +117,3 @@ const populateUl = () => {
 populateUl();
 
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".menu");
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-});
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-  hamburger.classList.remove("active");
-  navMenu.classList.remove("active");
-}));
