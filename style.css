@@ -329,7 +329,6 @@ a {
 }
 
 .chart-container {
-  border: 1px solid red;
   width: 100%;
   height: 40%;
   margin: 0 auto; 
@@ -608,7 +607,7 @@ a {
 footer {
   width: 70%;
   
-  height: 50vh;
+  height: 60vh;
   margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
@@ -621,9 +620,10 @@ footer {
 
 
 .footer-container {
-  height: 50%;
+  height: 60%;
   display: flex;
   margin-left: 5%;
+  gap: 20px;
 }
 
 .technology {
@@ -811,7 +811,7 @@ hr {
   footer {
     width: 100%;
     text-align: center;
-    height: 56vh;
+    height: 70vh;
   }
   .footer-container {
     display: grid;
