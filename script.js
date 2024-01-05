@@ -76,9 +76,15 @@ new Chart(myChart, {
     borderRadius: 8,
     responsive: true,
     hoverBorderWidth: 2,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
-        display: false,
+        display: true,
+        position: 'right',
+        align: 'right',
+        labels: {
+          color: 'white'
+      }
       },
     },
   },

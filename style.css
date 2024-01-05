@@ -329,6 +329,7 @@ a {
 }
 
 .chart-container {
+  border: 1px solid red;
   width: 100%;
   height: 40%;
   margin: 0 auto; 
@@ -350,19 +351,20 @@ a {
 }
 
 .my-chart {
-  
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   background-color: #21201e;
 
 }
 
-.details {
+/* .details {
   width: 70%;
   
-}
+} */
 
 
-.binary-stats .details ul {
+/* .binary-stats .details ul {
   list-style: none;
   padding: 0;
 }
@@ -375,7 +377,7 @@ a {
 .binary-stats .details .percentage {
   font-weight: 700;
   color: #A1C51E;
-}
+} */
 
 
 
@@ -431,6 +433,7 @@ a {
 }
 .btn {
   line-height: 1.8rem;
+
   border-radius: 9.5px;
   display: inline-flex;
   padding: 0.5rem 1rem;
