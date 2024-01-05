@@ -424,6 +424,60 @@ a {
   grid-gap: 1em;
   margin-bottom: 8vh;
 }
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  line-height: 1.8rem;
+  border-radius: 9.5px;
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  position: relative;
+  background-color: #18181b;
+  color: #f4f4f5;
+  transition: background-color 0.2s ease-in-out;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer; /* Not included according to website */
+}
+
+.btn:hover {
+  background-color: #0c0c0d;
+  color: #A0C41D;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    rgb(131, 161, 24),
+    rgb(98, 120, 18),
+    rgb(160, 196, 29)
+  );
+  inset: -2px;
+  z-index: -1;
+  color: #A0C41D;
+  border-radius: 12.5px;
+  transition: all 0.2s ease 0s;
+}
+
+.btn:hover:before {
+  box-shadow: rgba(131, 161, 24, 0.5) 0px 0px 10px 0px,
+    rgba(98, 120, 18, 0.5) 0px 0px 20px 0px;
+}
+
+.btn > span {
+  text-align: left;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  word-break: break-all;
+}
 
 
 
@@ -559,7 +613,7 @@ footer {
   flex-direction: column; 
  
   color:#FFFFFF;
-  text-align: center;
+  text-align: left;
 }
 
 
