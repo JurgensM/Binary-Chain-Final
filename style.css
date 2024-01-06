@@ -702,7 +702,9 @@ footer {
   align-items: center;
 }
 
-
+.footer-container a:hover {
+  color: #A1C51E;
+}
 
 .footer-socials li span {
   flex-grow: 1;
